@@ -32,9 +32,10 @@ def setup_package():
         author_email=about["__author_email__"],
         license=about["__license__"],
         packages=find_packages(exclude=("tests",)),
-        entry_points={"console_scripts": ["itslit = itslit.cli:cli"]},
+        include_package_data=True,
         install_requires=requires,
         extras_require={"dev": dev_requires},
+        entry_points={"console_scripts": ["itslit = itslit.cli:cli"]},
         classifiers=[
             # Trove classifiers
             # Full list: https://pypi.python.org/pypi?%3Aaction=list_classifiers
