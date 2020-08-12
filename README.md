@@ -7,3 +7,9 @@ Watch a random conference lightning talk in a browser near you.
 <pre>
 $ pip install itslit
 </pre>
+
+## Usage
+
+<pre>
+$ itslit
+</pre>
