@@ -1,3 +1,3 @@
 # itslit
 
-A cookiecutter for command-line tools!
+Watch a random conference lightning talk in a browser near you.
