@@ -2,6 +2,8 @@
 
 Watch a random conference lightning talk in a browser near you.
 
+Built with [PyVideo](https://github.com/pyvideo/data) data.
+
 ## Installation
 
 <pre>
